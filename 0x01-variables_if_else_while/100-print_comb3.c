@@ -12,7 +12,7 @@ int main(void)
 	while (i < 0)
 	{
 		j = 0;
-		while j < 10)
+		while (j < 10)
 		{
 			if (i != j && i < j)
 			{
@@ -26,7 +26,7 @@ int main(void)
 			}
 			j++;
 		}
-		i++
+		i++;
 	}
 	putchar('\n');
 	return (0);
