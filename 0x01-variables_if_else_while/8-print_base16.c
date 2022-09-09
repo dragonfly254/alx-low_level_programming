@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-	char d;
+	char d, c;
 
 	d = '0';
 	while (d <= '9')
@@ -14,8 +14,6 @@ int main(void)
 		putchar(d);
 		d++;
 	}
-
-	char c;
 
 	c = 'a';
 	while (c <= 'f')
