@@ -13,9 +13,9 @@ void more_numbers(void)
 	{
 		for (c = 0; c <= 14; c++)
 		{
-			if (ch >= 10)
-				_putchar((ch / 10) + 48);
-			_putchar((ch % 10) + 48);
+			if (c >= 10)
+				_putchar((c / 10) + 48);
+			_putchar((c % 10) + 48);
 		}
 		_putchar('\n');
 	}
