@@ -19,7 +19,7 @@ void rev_string(char *s)
 		for (j = i + 1; j > 0; j--)
 		{
 			tmp = *(s + j);
-			*(s + j) = *(s + (j -1));
+			*(s + j) = *(s + (j - 1));
 			*(s + (j - 1)) = tmp;
 		}
 	}
