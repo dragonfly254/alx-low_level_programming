@@ -4,6 +4,7 @@
  *
  * @dest: destination.
  * @src: source.
+ * @n: size of src.
  *
  * Return: dest.
  */
