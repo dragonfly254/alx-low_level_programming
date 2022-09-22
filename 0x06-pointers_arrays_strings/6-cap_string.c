@@ -22,7 +22,7 @@ char *cap_string(char *s)
 			if (*(s + counter) == sep_words[i])
 			{
 				if (*(s + (counter + 1)) >= 97 && *(s + (counter + 1)) <= 122)
-					*(s + (count + 1)) = *(s + (count + 1)) - 32;
+					*(s + (counter + 1)) = *(s + (counter + 1)) - 32;
 				break;
 			}
 		}

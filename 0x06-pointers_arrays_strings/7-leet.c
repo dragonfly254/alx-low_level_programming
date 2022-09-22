@@ -1,12 +1,12 @@
 #include "main.h"
 /**
- * encodes a string into 1337.
+ * leet - encodes a string into 1337.
  *
  * @s: input string.
  *
  * Return: encoded string.
  */
-char *leet(char *)
+char *leet(char *s)
 {
 	int count = 0, i;
 	int low_letters[] = {97, 101, 111, 116, 108};
