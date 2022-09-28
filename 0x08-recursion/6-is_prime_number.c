@@ -21,7 +21,7 @@ int is_prime(unsigned int n, unsigned int c)
 }
 
 /**
- * is_prime_number - returns 1 if the input integer is a prime number, otherwise return 0.
+ * is_prime_number - returns 1 if the input integer is a prime,0otherwise.
  *
  * @n: input integer.
  *
@@ -29,7 +29,7 @@ int is_prime(unsigned int n, unsigned int c)
  */
 int is_prime_number(int n)
 {
-	if (n ==0)
+	if (n == 0)
 		return (0);
 	if (n < 0)
 		return (0);
