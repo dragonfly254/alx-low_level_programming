@@ -35,6 +35,6 @@ int main(int argc, char *argv[])
 
 		number_of_coins += 1;
 	}
-	printf("%d\n", nummber_of_coins);
+	printf("%d\n", number_of_coins);
 	return (0);
 }
