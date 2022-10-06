@@ -11,7 +11,7 @@ void *malloc_checked(unsigned int b)
 {
 	char *alloc_mem;
 
-	allco_mem = malloc(b);
+	alloc_mem = malloc(b);
 	if (alloc_mem == NULL)
 		exit(98);
 	return (alloc_mem);
