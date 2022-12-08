@@ -8,11 +8,14 @@
  */
 size_t print_dlistint(const dlistint_t *h)
 {
-	if (h == NULL)
+	if (!h)
 		return (0);
 
 	size_t nnodes;
 	dlistint_t *curr;
+
+	while (h->prev != NULL)
+		h = h->prev;
 
 	curr = h;
 	nnodes = 0;
