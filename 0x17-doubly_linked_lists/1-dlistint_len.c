@@ -11,7 +11,7 @@ size_t dlistint_len(const dlistint_t *h)
 	size_t arr_length = 0;
 
 	if (h == NULL)
-		return (n);
+		return (0);
 
 	while (h->prev != NULL)
 		h = h->prev;

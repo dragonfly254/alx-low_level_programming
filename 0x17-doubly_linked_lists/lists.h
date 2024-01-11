@@ -2,7 +2,7 @@
 #define LISTS_H
 
 /********** include files ************/
-#include <stdlid.h>
+#include <stdlib.h>
 #include <stdio.h>
 
 /**
